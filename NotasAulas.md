@@ -1,6 +1,6 @@
-**Git e Github Ninja**  
+# **Git e Github Ninja**  
 
-**Seção 1 Aula-1. Introdução**  
+## **Seção 1 Aula-1. Introdução**  
 
 * **Comandos**  
 
@@ -13,7 +13,8 @@ git init --> Inicia o repositóiro do git
 git status --> Verifica o estado atual da árvore do git  (Mostra o controle de versão dos arquivos);
 
 ****  
-**Seção 1 Aula-2. Adicionando arquivos e fazendo as configurações iniciais do git**  
+
+## **Seção 1 Aula-2. Adicionando arquivos e fazendo as configurações iniciais do git**  
 
 --> Passando do Working directory para o Staging Area --> git add  <file>
 
@@ -30,6 +31,6 @@ Staging Area --> Ainda não está no Diretório do Git
 
 * Passando do Staging Area para a git Directory = git commit -m "Commit message"
 
-
 ****  
-**Seção 1 Aula-2. Adicionando arquivos e fazendo as configurações iniciais do git**  
+
+## **Seção 1 Aula-2. Adicionando arquivos e fazendo as configurações iniciais do git**  
