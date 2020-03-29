@@ -4,7 +4,7 @@
 
 * **Comandos**  
 
-mkdir <nome do diretório> --> Criar diretória
+mkdir <nome do diretório> --> Criar diretório
 
 touch --> criar arquivo.
 
