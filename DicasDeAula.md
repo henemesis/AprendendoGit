@@ -114,9 +114,11 @@ git commit -am
   
 --> git log --abbrev-commit ==> Abrevia o hash dos commits realizados;  
   
---> git log --stat ==> Mostra estáticas do log.  
+--> git log --stat ==> Mostra estáticas do log;  
   
+--> git log -p ==> Mostra a alteração realizada nos arquivos;  
   
+
 #### Posso unir dois comandos:  
   
 git log --pretty=oneline --abbrev-commit  
