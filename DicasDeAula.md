@@ -15,7 +15,7 @@ git status --> Verifica o estado atual da árvore do git  (Mostra o controle de 
 
 ## Seção 1 Aula-2. Adicionando arquivos e fazendo as configurações iniciais do git  
 
---> Passando do Working directory para o Staging Area --> git add  <file>
+--> Passando do Working directory para o Staging Area --> git add  < file >
 
 Staging Area --> Ainda não está no Diretório do Git
 
@@ -61,6 +61,7 @@ A partir daqui veremos a vizualização de pontos no histórico do Git.
 ****  
 
 # Seção 2  
+  
 
 ## Seção 2 Aula-7. Adicionar arquivos
 
@@ -82,12 +83,12 @@ Trata-se de um arquivo oculto.
 --> .gitignore = **DEVE SER ADICIONADO A RAIZ DO PROJETO**
 ****  
 
-## Seção 2 Aula-9. gitignore - parte 2.  
+## Seção 2 Aula-9. gitignore - parte 2  
   
 git rm -rf node_modules/ --cached --> remove arquivos adicionados a staging area.   
 ****  
 
-## Seção 2 Aula-10. gitignore - parte 3.  
+## Seção 2 Aula-10. gitignore - parte 3  
   
 --> git commit -a -m ==> Ignora a staging area, passando as alterações diretamente para o git directory.  
 
@@ -103,7 +104,7 @@ git commit -am
 
 --> git commit ==> Encaminha para o nano ou VIM para edição do commit.  
 
---> git config --global core.editor <nome do editor> ==> Modifica o editor padrão do git.  
+--> git config --global core.editor < nome do editor > ==> Modifica o editor padrão do git.  
 
 --> git config --global -e ==> muda as configurações globais manualmente, por exemplo editor ou user.
 ****  
@@ -121,6 +122,60 @@ git commit -am
 
 #### Posso unir dois comandos:  
   
-git log --pretty=oneline --abbrev-commit  
+--> git log --pretty=oneline --abbrev-commit  
+
+****  
+  
+# Seção 3  
+  
+
+## Seção 3 Aula-12. git branch  
+  
+Não se faz alterações na **branch master** a branch master é criada por padrão no git. O correto é criar uma ramificação (branch) para o desenvolvimento do projeto.  
+  
+--> git branch < nome da branch > ==> cria uma nova branch;  
+  
+--> git checkout < nome da branch > ==> muda de branch;  
+
+**Obs:** O git não faz commit de diretórios vazios.  
+  
+****  
+
+## Seção 3 Aula-12. git branch - parte2  
+  
+--> git merge < nome da branch > ==> une branches!  
+  
+--> branch master ==> branch final de desenvolvimento;  
+
+--> branch dev ==> onde serão realizadas as modificações. Será a versão beta do programa. Onde estará tudo o que foi e será desenvolvido.  
+
+****  
+
+## Seção 3 Aula-12. git branch - parte3  
+  
+--> git checkout -b < nome da branch > ==> cria uma nova branch e automáticamente seleciona a nova branch.  
+
+--> git branch -m < novo nome da branch > ==> modifica o nome da branch;  
+
+--> git branc -D < nome da branch > ==> apaga a branch  
+
+No checkout -b = a branch terá o mesmo conteúdo da branch em que o comando foi executado  
+
+--> git checkout --orphan < nome da branch> ==> cria uma branch vazia, sem relação com qualque outra  
+
+
+****  
+
+## Seção 3 Aula-12. Criando repositórios  
+  
+--> git init --bare ==> Cria um repositório  (ainda não será criado no Github)  
+Será feito localmente o que o github faz na nuvem!  
+
+--> git remote add < origin > < repository > ==> "linca" o diretório origem com o diretório remoto  
+
+****  
+
+## Seção 3 Aula-13. Sincronizando ambiente local com o repositório
+  
 
 ****
