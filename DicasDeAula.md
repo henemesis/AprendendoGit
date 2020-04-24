@@ -157,7 +157,7 @@ Não se faz alterações na **branch master** a branch master é criada por padr
 
 --> git branch -m < novo nome da branch > ==> modifica o nome da branch;  
 
---> git branc -D < nome da branch > ==> apaga a branch  
+--> git branch -D < nome da branch > ==> apaga a branch  
 
 No checkout -b = a branch terá o mesmo conteúdo da branch em que o comando foi executado  
 
