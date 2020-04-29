@@ -129,7 +129,7 @@ git commit -am
 # Seção 3  
   
 
-## Seção 3 Aula-12. git branch  
+## Seção 3 Aula-13. git branch  
   
 Não se faz alterações na **branch master** a branch master é criada por padrão no git. O correto é criar uma ramificação (branch) para o desenvolvimento do projeto.  
   
@@ -141,7 +141,7 @@ Não se faz alterações na **branch master** a branch master é criada por padr
   
 ****  
 
-## Seção 3 Aula-12. git branch - parte2  
+## Seção 3 Aula-14. git branch - parte2  
   
 --> git merge < nome da branch > ==> une branches!  
   
@@ -151,7 +151,7 @@ Não se faz alterações na **branch master** a branch master é criada por padr
 
 ****  
 
-## Seção 3 Aula-12. git branch - parte3  
+## Seção 3 Aula-15. git branch - parte3  
   
 --> git checkout -b < nome da branch > ==> cria uma nova branch e automáticamente seleciona a nova branch.  
 
@@ -166,7 +166,7 @@ No checkout -b = a branch terá o mesmo conteúdo da branch em que o comando foi
 
 ****  
 
-## Seção 3 Aula-12. Criando repositórios  
+## Seção 3 Aula-16. Criando repositórios  
   
 --> git init --bare ==> Cria um repositório  (ainda não será criado no Github)  
 Será feito localmente o que o github faz na nuvem!  
@@ -175,7 +175,115 @@ Será feito localmente o que o github faz na nuvem!
 
 ****  
 
-## Seção 3 Aula-13. Sincronizando ambiente local com o repositório
+## Seção 3 Aula-17. Sincronizando ambiente local com o repositório
+  
+--> git push < origin > < branch > == mandar para o origin o que está na nossa branch...  
+****
+
+## Seção 3 Aula-18. Clonando Repositórios
+  
+--> git clone < caminho > == Clonando repositório...  
+****
+
+## Seção 4 Aula-19. Como trabalhar em equipe - melhorar histórico de commits
+  
+--> Controle de versão centralizado == O repositório principal fica bloqueado sempre que alguém faz uma alteração no arquivo  
+  
+--> git commit -m < "Comentário" >  --amend == aproveita o commit anterior sobrescrevendo-o  
+  
+**OBS:** Utilizar o --amend após a realização de um push pode causar conflitos com outros commits já realizados pela equipe.
+  
+**OBS2:** Realizado o push --> **faça um novo commit**
   
 
 ****
+
+## Seção 4 Aula-20. Automerge - Resolver conflitos  
+  
+--> git merge --abort == aborta o merge a ser realizado  
+****  
+
+## Seção 4 Aula-21. Merge Tool  
+
+--> Ferramentas utilizadas para fazer Merge == meld  -> Utilizada no linux  
+  
+--> git config --global merge.tool meld
+****  
+
+## Seção 4 Aula-22. Alterações sem espaço e git checkout 
+
+--> git diff -w == não mostra alterações de espaçamento no diff  
+  
+--> git checkout < file > == desfaz alterações **não commitadas**  
+  
+--> git checkout < num hash do commit > == volta em um commit para correções! Será necessário saber o número do commit  
+  
+--> git checkout -b < name of new branch > == Cria uma branch baseada na anterior.  
+  
+--> git checkout < name of branch based > -b < name of new branch > == Cria uma branch baseada na anterior, a partir de uma branch do repositório.  
+  
+--> git checkout < hash number for correction > -b < name of new branch > == Retorna no commit ao qual se quer corrigir e cria uma nova branch de correção  
+  
+
+****  
+
+## Seção 4 Aula-23. git stash 
+
+--> git stash == coloca as alterações de uma branch em uma "lista" para ser alterada depois!  
+  
+--> git stash list == mostra a lista de stashes salvas  
+  
+--> git stash apply == retorna a stash para o trabalho corrente  
+
+--> git stash drop < nome do stash > == apaga a stash salva em memória  
+  
+--> stash@{0} == **SEMPRE** será o stash **MAIS RECENTE**
+
+--> git stash apply == **SEMPRE** aplica o stash **MAIS RECENTE**, ou seja, **stash@{0}**  
+  
+--> git stash pop == Aplica o último stash e apaga o registro dele do stash list  
+  
+****  
+
+## Seção 4 Aula-24 - Logs Personalizados  
+
+--> git log -p -2 == Visualização do log com as duas últimas alterações realizadas nos arquivos  
+  
+--> o parâmetro numérico pode ser alterado conforme a necessidade do usuário. Exemplo:  
+  
+        git log -p -3  
+
+--> git log --pretty=format:"%h - %an, %ar : %s"  
+  
+### Significado dos Parâmetro  
+
+* %h = hash do commit abreviado  
+* %an = Autor Name  
+* %ar = Tempo em que foi realizado o commit  
+* %s = Título do Commit  
+  
+### Outros Parâmetros  
+  
+* %H - Commit hash  
+* %h - Commit Abreviado  
+* %T - Tree Hash  
+* %t - Abbreviated tree hash  
+* %P - Parent hashes  
+* %p - Abbreviated parent hashes  
+* %s - Assunto do Commit  
+* %an - Nome do autor  
+* %ae - E-mail do autor  
+* %ad - Autor date ou git log --date=option (exemplo date=short)  
+* %ar - Autor date, relative  
+* %cn - Committer name  
+* %ce - Committer email  
+* %cd - Committer date  
+* %cr - Committer date, relative  
+
+****  
+
+## Seção 5 Aula-25 - Conhecendo o Github  
+   
+
+
+****  
