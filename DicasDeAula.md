@@ -184,6 +184,9 @@ Será feito localmente o que o github faz na nuvem!
   
 --> git clone < caminho > == Clonando repositório...  
 ****
+  
+# Seção 4  
+  
 
 ## Seção 4 Aula-19. Como trabalhar em equipe - melhorar histórico de commits
   
@@ -281,9 +284,78 @@ Será feito localmente o que o github faz na nuvem!
 * %cr - Committer date, relative  
 
 ****  
+  
+# Seção 5  
+  
 
 ## Seção 5 Aula-25 - Conhecendo o Github  
    
+--> Aula de introdução e conhecimento sobre a plataforma Github
 
+****  
+
+## Seção 5 Aula-26 - Usando repositórios no GitHub
+   
+--> Utilização da url para subir no github (Alteração no origin):  
+
+        git remote set-url origin https://github.com/henemesis/ecommerce.git  
+       
+
+****  
+
+## Seção 5 Aula-27 - Conhecendo a página do repositório  
+   
+--> Na página do Github:  
+
++ Botão Watch == Fazer observações e receber atualizações do diretório ("assistir alterações")  
+
+![config](/../master/ImgGit/img1.png?raw=true)  
+  
++ Botão Star == Botão para marcar o repositório como "favorito", são separados em outro local  
+  
+![config](/../master/ImgGit/img2.png?raw=true)  
+  
++ Botão Fork == Copia o repositório do Github para a minha conta Github, usado para colaboração entre projetos  
+  
+![config](/../master/ImgGit/img3.png?raw=true)  
+  
+  
++ Botão Change default Branch == Modifica a branch padrão.  
+  
+![config](/../master/ImgGit/img4.png?raw=true)  
+  
+****  
+
+## Seção 5 Aula-28 - Conhecendo a página do repositório parte-2  
+  
+--> git commit -m "< commit > -fix #1" == Fecha a Issue aberta pelo por um usuário   
+
+****  
+
+## Seção 5 Aula-29 -  Trabalhando com branches no GitHub
+     
+--> Visualização de branches no site Github  
+  
+### Criando um pull request:  
+  
+* Pull request == solicitação de merge!  
+  
+****  
+
+
+## Seção 5 Aula-30 -  Deletando branches no GitHub
+     
+--> git push origin < branch > --delete ou   
+
+--> git push origin :< branch >
+  
+****  
+
+# Seção 6  
+  
+
+## Seção 6 Aula-31 - Cache de Senha 
+   
+-->
 
 ****  
