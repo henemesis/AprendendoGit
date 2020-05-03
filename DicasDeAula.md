@@ -430,6 +430,21 @@ Kotlin    |   8k
 C         |   9k
 Ruby      |   6k
   
+Alinhando elementos da tabela:  
+
+* Codigo:  
+  
+![Tabela](/../master/ImgGit/img6.png?raw=true) 
+
+* Visualização:(alinhamento dos valores a direita)  
+  
+Linguagem | Num de Usuários
+----------|-----------------:
+Java      |   10K
+Kotlin    |   8k
+C         |   9k
+Ruby      |   6k
+  
 
 ****  
 
