@@ -356,6 +356,81 @@ Será feito localmente o que o github faz na nuvem!
 
 ## Seção 6 Aula-31 - Cache de Senha 
    
--->
+--> git config --global credential.helper cache == Evita o uso de senhas do git.  
+  
+Trata-se de uma configuração global!  Ao digitar a senha em uma operação ela será ficará em cache, sendo desnecessário digitar a senha novamente!  
+  
+--> git config --global --unset credential.helper == desfaz o comando acima. Dessa forma, volta-se a digitar senha e credencial.  
+
+--> git config --global credential.helper 'cache --timeout=3600' == Comando para que a senha fique temporariamente no cache do git.
+  
 
 ****  
+
+## Seção 6 Aula-32 - Overview do repositório  
+   
+--> Overview de todos os links e tag do repositório no github.
+
+****  
+
+## Seção 6 Aula-33 - Configurações do repositório 
+   
+--> Configurações simples criadas no repositório do github na web para questões de segurança, modificação de branches entre outros.  
+
+****  
+
+## Seção 6 Aula-34 - Perfil do usuário e configurações
+   
+--> Overview do perfil do usuário e configurações do perfil do repositório no github 
+
+****  
+
+## Seção 6 Aula-35 - Configurações do usuário - parte 2
+   
+--> Overview do perfil do usuário e configurações do perfil do repositório no github 
+
+****  
+
+# Seção 7  
+  
+
+## Seção 7 Aula-38 - Markdown parte 2   
+   
+\_palavra\_  == coloca a palavra em itálico  (o underline deve ficar próximo a palavra)  
+  
+\[Link\](https:meusite.com.br) == Cria link no markdown  
+
+****  
+
+## Seção 7 Aula-39 - Markdown parte 3   
+   
+--> listas:  
+  
+usar travessão == -  
+  
+ Para sublistas, basta aumetar o espaço.  
+
+
+****  
+
+## Seção 7 Aula-40- Markdown parte 4  
+  
+### Tabelas  
+  
+* Como é escrita:  
+
+![Tabela](/../master/ImgGit/img5.png?raw=true)  
+  
+* Visualização:  
+  
+Linguagem | Num de Usuários
+----------|-----------------
+Java      |   10K
+Kotlin    |   8k
+C         |   9k
+Ruby      |   6k
+  
+
+****  
+
+
