@@ -430,8 +430,9 @@ Kotlin    |   8k
 C         |   9k
 Ruby      |   6k
   
-Alinhando elementos da tabela:  
-
+##### Alinhando elementos da tabela:  
+  
+###### Alinhamento de valores a direita
 * Codigo:  
   
 ![Tabela](/../master/ImgGit/img6.png?raw=true) 
@@ -444,6 +445,20 @@ Java      |   10K
 Kotlin    |   8k
 C         |   9k
 Ruby      |   6k
+  
+###### Alinhamento das palavras no centro
+* Codigo:  
+  
+![Tabela](/../master/ImgGit/img7.png?raw=true) 
+
+* Visualização:(alinhamento das palavras no centro)  
+  
+Linguagem   | Num de Usuários
+:----------:|-----------------:
+Java        |   10K
+Kotlin      |   8k
+C           |   9k
+Ruby        |   6k
   
 
 ****  
