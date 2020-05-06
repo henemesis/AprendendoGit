@@ -23,5 +23,7 @@
 ****  
 
 ## 3. Comando de history  
-  
---> history |grep git --> coloca data e hora no history
+
+### O Comando Abaixo será executado somente uma vez no terminal (GitBash ou Terminal Linux)
+--> echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile  
+--> source ~/.bash_profile
