@@ -430,9 +430,9 @@ Kotlin    |   8k
 C         |   9k
 Ruby      |   6k
   
-##### Alinhando elementos da tabela:  
+#### Alinhando elementos da tabela:  
   
-###### Alinhamento de valores a direita
+##### Alinhamento de valores a direita
 * Codigo:  
   
 ![Tabela](/../master/ImgGit/img6.png?raw=true) 
@@ -446,7 +446,7 @@ Kotlin    |   8k
 C         |   9k
 Ruby      |   6k
   
-###### Alinhamento das palavras no centro
+##### Alinhamento das palavras no centro
 * Codigo:  
   
 ![Tabela](/../master/ImgGit/img7.png?raw=true) 
@@ -460,7 +460,49 @@ Kotlin      |   8k
 C           |   9k
 Ruby        |   6k
   
+**** 
+
+## Seção 7 Aula-41 - Markdown parte 5   
+   
+Review de tópicos de inserção de imagens entre outros. 
+
+****
+
+## Seção 7 Aula-42 - Upload - README - gists
+   
+Review de README e upload de arquivos e imagens.
+Criação de gists --> pequenos trechos de código.
+
+****
+
+# Seção 8 
+  
+
+## Seção 8 Aula-43 - Trabalhando em equipe no GitHub  
+   
+Criando um forked no Github. --> Utilizando a estrutura do site do github.  
+  
 
 ****  
 
+## Seção 8 Aula-44 - Trabalhando em equipe no GitHub  parte 2
+   
+--> git fetch < nome do repositório > == busca atualizações do Github para a máquina local  
+  
+
+--> git merge upstream/master (upstream == repositório criado para exemplo) == compara os ambientes de trabalho para atualização  
+
+--> git pull upstream/master (upstream == repositório criado para exemplo) == união de git merge e fetch em um só comando.  
+  
+--> git remote set-url < nome da url do git> --> Configura o remote através de uma url git  
+  
+--> git remote add upstream < nome da url do git>: upstream == nome padrão para o repositório principal  
+  
+
+****  
+
+## Seção 8 Aula-44 - Trabalhando em equipe no GitHub  parte 3
+   
+
+****  
 
