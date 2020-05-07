@@ -501,7 +501,7 @@ Criando um forked no Github. --> Utilizando a estrutura do site do github.
 
 ****  
 
-## Seção 8 Aula-44 - Trabalhando em equipe no GitHub  parte 3
+## Seção 8 Aula-45 - Trabalhando em equipe no GitHub  parte 3
    
 
 ****  
