@@ -501,8 +501,14 @@ Criando um forked no Github. --> Utilizando a estrutura do site do github.
 
 ****  
 
-## Seção 8 Aula-45 - Trabalhando em equipe no GitHub  parte 3
+## Seção 8 Aula-45 - Trabalhando em equipe no GitHub  parte 3  
    
+--> git fetch upstream --> mostra as branches do repositório a serem setadas  
+  
+--> git checkout upstream/dev -b dev --> faz o checkout da branch dev do repositório para uma branch dev local  
+  
+**Não se faz commits direto na dev**  
 
+_Você só faz **merge** da **dev** para seu repositório local_
 ****  
 
