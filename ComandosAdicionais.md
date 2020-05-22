@@ -13,4 +13,4 @@ Vizualização da estrutura de branches (árvore)
 	git log --oneline --decorate --all  
   
 Visualização do workflow  
-	git log --oneline --decorate --all --graph  
+	git log --oneline --decorate --all --graph
