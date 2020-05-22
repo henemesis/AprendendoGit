@@ -3,7 +3,7 @@ Aulas do professor Rodrigo Branas.
 ## 1. Árvore git  
   
 ### Intalação:  
-sudo apt instal tree  
+```sudo apt instal tree```  
   
 Permite a visualização da árvore de estrutura de pastas do git.  
 
