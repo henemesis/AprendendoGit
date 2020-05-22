@@ -10,12 +10,7 @@ Permite a visualização da árvore de estrutura de pastas do git.
 ## 2. Git log  
   
 Vizualização da estrutura de branches (árvore)  
-**git log --oneline --decorate --all**  
+	git log --oneline --decorate --all  
   
 Visualização do workflow  
-**git log --oneline --decorate --all --graph**  
-
- 
-
-
-
+	git log --oneline --decorate --all --graph  
