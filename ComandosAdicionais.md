@@ -19,5 +19,5 @@ Visualização do workflow
 
 ## 3. Git reflog 
   
-Mostra as alterações feitas através do comando reset.
+Mostra as alterações feitas através do comando reset.  
 ```git reflog``
