@@ -16,3 +16,8 @@ Vizualização da estrutura de branches (árvore)
 Visualização do workflow  
   
 ```git log --oneline --decorate --all --graph```  
+
+## 3. Git reflog 
+  
+Mostra as alterações feitas através do comando reset.
+```git reflog``
