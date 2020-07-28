@@ -1,0 +1,8 @@
+1) git checkout dev
+ 2) git pull
+ 3) git checkout minha branch
+ 4) git merge development -Xignore-space-change (resolvo os merges)
+ 5) grep -lr '<<<<<<<' --include="pom.xml" | xargs git checkout --theirs
+ 6) git add (caso haja conflito)
+ 7) git commit (caso haja conflito)
+ 8) git push
